@@ -24,9 +24,23 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let customerName = "Alice";
 
-console.log(d);
+let itemCount = 5;
+
+let totalCost = 20;
+
+let storeName = "Main Street Market";
+
+let pricePerItem = totalCost / itemCount;
+
+let purchaseMessage = `${customerName} bought ${itemCount} items for $${totalCost}.`;
+
+console.log(purchaseMessage);
+
+console.log(`${storeName} - Average price per item: $${pricePerItem}.`);
+node variables-naming-conventions-and-top-to-bottom-code-evaluation.js
+node variables-naming-conventions-and-top-to-bottom-code-evaluation.js
+git status
+git status
+git status
